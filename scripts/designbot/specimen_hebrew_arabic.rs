@@ -67,6 +67,7 @@ struct Sheet {
     renderer: Renderer,
     mono: String,
     hebrew: String,
+    hebrew_medium: String,
     arabic: String,
 }
 
@@ -130,9 +131,11 @@ fn main() {
         &format!("{home}/GH/repos/google-fonts/ofl/geistmono/GeistMono[wght].ttf"));
     let hebrew = load_family(&mut renderer,
         &format!("{home}/GH/repos/mekorot/fonts/ttf/Mekorot-Regular.ttf"));
+    let hebrew_medium = load_family(&mut renderer,
+        &format!("{home}/GH/repos/mekorot/fonts/ttf/Mekorot-Medium.ttf"));
     let arabic = load_family(&mut renderer,
         &format!("{home}/GH/repos/open-gate-naskh/fonts/ttf/OpenGateNaskh-Regular.ttf"));
-    let sheet = Sheet { renderer, mono, hebrew, arabic };
+    let sheet = Sheet { renderer, mono, hebrew, hebrew_medium, arabic };
 
     let mut ctx = Canvas::new(W, H);
     ctx.background(bg());
@@ -203,6 +206,32 @@ fn main() {
         sheet.rtl_line(&mut ctx, &sheet.arabic.clone(),
             "يولد جميع الناس أحراراً متساوين", right, y, s, ink());
         y -= s * 1.55;
+    }
+
+    // ── 4 · scale trials: fixed Hebrew, Arabic at rising factors ──
+    sheet.label(&mut ctx, "SCALE TRIALS: ARABIC x 1.00 / 1.15 / 1.25 / 1.35", MARGIN, y + 40.0, green(), -1);
+    y -= 70.0;
+    let heb_probe = "כל בני האדם נולדו בני חורין";
+    let ara_probe = "يولد جميع الناس أحرارا متساوين";
+    for f in [1.00_f64, 1.15, 1.25, 1.35] {
+        ctx.stroke(Color::rgb(0x32, 0x32, 0x32)).stroke_width(1.5).no_fill();
+        ctx.line(MARGIN, y, right, y);
+        let w = sheet.rtl_line(&mut ctx, &sheet.hebrew.clone(), heb_probe, right, y, 56.0, ink());
+        sheet.rtl_line(&mut ctx, &sheet.arabic.clone(), ara_probe, right - w - 80.0, y, 56.0 * f, ink());
+        sheet.label(&mut ctx, &format!("x{f:.2}"), MARGIN, y, green(), -1);
+        y -= 120.0;
+    }
+
+    // ── 5 · weight trial: Naskh against Mekorot Regular vs Medium ──
+    sheet.label(&mut ctx, "WEIGHT TRIAL: NASKH VS MEKOROT REGULAR / MEDIUM", MARGIN, y + 20.0, green(), -1);
+    y -= 60.0;
+    for (heb_fam, tag) in [(&sheet.hebrew, "REGULAR"), (&sheet.hebrew_medium, "MEDIUM")] {
+        ctx.stroke(Color::rgb(0x32, 0x32, 0x32)).stroke_width(1.5).no_fill();
+        ctx.line(MARGIN, y, right, y);
+        let w = sheet.rtl_line(&mut ctx, &heb_fam.clone(), heb_probe, right, y, 56.0, ink());
+        sheet.rtl_line(&mut ctx, &sheet.arabic.clone(), ara_probe, right - w - 80.0, y, 56.0 * 1.25, ink());
+        sheet.label(&mut ctx, tag, MARGIN, y, green(), -1);
+        y -= 120.0;
     }
 
     let out = format!("{out_dir}/hebrew-arabic-merge-sheet.png");

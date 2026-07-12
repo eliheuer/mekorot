@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="pedagesh-hb" format="2">
+  <advance width="593.92" />
+  <unicode hex="FB44" />
+  <anchor x="129.024" y="0" name="bottom" />
+  <anchor x="363.52" y="323.584" name="center" />
+  <outline>
+    <component base="pe-hb" />
+    <component base="dagesh-hb" xOffset="347.136" yOffset="-1.024" />
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

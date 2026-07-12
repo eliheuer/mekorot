@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="daletdagesh-hb" format="2">
+  <advance width="599.04" />
+  <unicode hex="FB33" />
+  <anchor x="294.912" y="0" name="bottom" />
+  <anchor x="186.368" y="325.632" name="center" />
+  <outline>
+    <component base="dalet-hb" />
+    <component base="dagesh-hb" xOffset="186.368" yOffset="1.024" />
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

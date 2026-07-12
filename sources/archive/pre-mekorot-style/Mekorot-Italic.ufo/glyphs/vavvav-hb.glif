@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="vavvav-hb" format="2">
+  <advance width="591.872" />
+  <unicode hex="05F0" />
+  <anchor x="382.976" y="0" name="bottom" />
+  <anchor x="276.48" y="0" name="bottomleft" />
+  <anchor x="345.088" y="276.48" name="center" />
+  <anchor x="517.12" y="645.12" name="top" />
+  <anchor x="487.424" y="645.12" name="topleft" />
+  <outline>
+    <component base="vav-hb" />
+    <component base="vav-hb" xOffset="276.48" />
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>vav-hb</string>
+        </dict>
+      </array>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zayindagesh-hb" format="2">
+  <advance width="362.496"/>
+  <unicode hex="FB36"/>
+  <anchor x="201.728" y="0" name="bottom"/>
+  <anchor x="89.088" y="0" name="bottomleft"/>
+  <anchor x="-10.24" y="260.096" name="center"/>
+  <anchor x="280.576" y="706.56" name="top"/>
+  <anchor x="150.528" y="706.56" name="topleft"/>
+  <outline>
+    <component base="zayin-hb"/>
+    <component base="dagesh-hb" xOffset="-10.24" yOffset="-64.512"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0.5,0,1</string>
+    </dict>
+  </lib>
+</glyph>

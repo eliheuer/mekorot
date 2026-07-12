@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="idotless_dotbelowcomb" format="2">
+  <advance width="320.512" />
+  <anchor x="160.768" y="0" name="bottom" />
+  <anchor x="174.08" y="0" name="right" />
+  <anchor x="160.768" y="522.24" name="top" />
+  <outline>
+    <component base="idotless" />
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

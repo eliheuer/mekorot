@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yodyod-hb" format="2">
+  <advance width="724.992"/>
+  <unicode hex="05F2"/>
+  <anchor x="339.968" y="229.376" name="bottom"/>
+  <anchor x="1.024" y="347.136" name="center"/>
+  <outline>
+    <component base="yod-hb" xOffset="362.496"/>
+    <component base="yod-hb"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0.5,0,1</string>
+    </dict>
+  </lib>
+</glyph>

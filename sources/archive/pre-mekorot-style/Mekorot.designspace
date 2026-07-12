@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="5.0">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="400" maximum="800" default="400">
+      <map input="400" output="90"/>
+      <map input="500" output="110"/>
+      <map input="600" output="130"/>
+      <map input="700" output="140"/>
+      <map input="800" output="150"/>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="Mekorot-Regular.ufo" name="Mekorot Regular" familyname="Mekorot" stylename="Regular">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="90"/>
+      </location>
+    </source>
+    <source filename="Mekorot-ExtraBold.ufo" name="Mekorot ExtraBold" familyname="Mekorot" stylename="ExtraBold">
+      <location>
+        <dimension name="Weight" xvalue="150"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="Mekorot Regular" familyname="Mekorot" stylename="Regular" filename="instance_ufos/Mekorot-Regular.ufo">
+      <location>
+        <dimension name="Weight" xvalue="90"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>m01</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Regular</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Mekorot Medium" familyname="Mekorot" stylename="Medium" filename="instance_ufos/Mekorot-Medium.ufo">
+      <location>
+        <dimension name="Weight" xvalue="110"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>m002</key>
+            <real>0.33333</real>
+            <key>m01</key>
+            <real>0.66667</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <integer>500</integer>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Mekorot SemiBold" familyname="Mekorot" stylename="SemiBold" filename="instance_ufos/Mekorot-SemiBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="130"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>m002</key>
+            <real>0.66667</real>
+            <key>m01</key>
+            <real>0.33333</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <integer>600</integer>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Mekorot Bold" familyname="Mekorot" stylename="Bold" filename="instance_ufos/Mekorot-Bold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="140"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>m002</key>
+            <real>0.83333</real>
+            <key>m01</key>
+            <real>0.16667</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <integer>700</integer>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Mekorot ExtraBold" familyname="Mekorot" stylename="ExtraBold" filename="instance_ufos/Mekorot-ExtraBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="150"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>m002</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <integer>800</integer>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+  </instances>
+</designspace>

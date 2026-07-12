@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="macronacute.case" format="2">
+  <advance width="512"/>
+  <anchor x="256" y="727.04" name="_top"/>
+  <outline>
+    <component base="macroncomb.case" xOffset="256"/>
+    <component base="acutecomb.case" xOffset="347.136" yOffset="155.648"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0.5,0,1</string>
+    </dict>
+  </lib>
+</glyph>

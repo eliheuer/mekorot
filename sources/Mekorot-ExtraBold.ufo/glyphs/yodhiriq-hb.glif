@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yodhiriq-hb" format="2">
+  <advance width="362.496"/>
+  <unicode hex="FB1D"/>
+  <anchor x="97.28" y="0" name="bottom"/>
+  <anchor x="1.024" y="347.136" name="center"/>
+  <outline>
+    <component base="yod-hb"/>
+    <component base="dagesh-hb" xOffset="52.224" yOffset="-152.576"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>dagesh-hb</string>
+        </dict>
+      </array>
+      <key>public.markColor</key>
+      <string>1,0.5,0,1</string>
+    </dict>
+  </lib>
+</glyph>

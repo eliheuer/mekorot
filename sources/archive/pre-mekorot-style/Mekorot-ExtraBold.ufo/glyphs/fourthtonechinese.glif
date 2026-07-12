@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="fourthtonechinese" format="2">
+  <advance width="284.672" />
+  <unicode hex="02CB" />
+  <anchor x="234.496" y="522.24" name="_top" />
+  <outline>
+    <component base="grave" />
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.25,0.25,0.25,1</string>
+    </dict>
+  </lib>
+</glyph>

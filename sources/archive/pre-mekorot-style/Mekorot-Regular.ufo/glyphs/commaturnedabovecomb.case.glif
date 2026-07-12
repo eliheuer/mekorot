@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="commaturnedabovecomb.case" format="2">
+  <anchor x="10.24" y="727.04" name="_top" />
+  <outline>
+    <contour>
+      <point x="30.72" y="727.04" type="curve" smooth="yes" />
+      <point x="61.44" y="727.04" />
+      <point x="71.68" y="736.256" />
+      <point x="71.68" y="748.544" type="curve" smooth="yes" />
+      <point x="71.68" y="793.6" type="line" />
+      <point x="13.312" y="793.6" />
+      <point x="-13.312" y="801.792" />
+      <point x="-13.312" y="836.608" type="curve" smooth="yes" />
+      <point x="-13.312" y="864.256" />
+      <point x="9.216" y="876.544" />
+      <point x="46.08" y="876.544" type="curve" smooth="yes" />
+      <point x="52.224" y="876.544" />
+      <point x="62.464" y="875.52" />
+      <point x="70.656" y="873.472" type="curve" />
+      <point x="70.656" y="888.832" type="line" />
+      <point x="62.464" y="890.88" />
+      <point x="49.152" y="891.904" />
+      <point x="39.936" y="891.904" type="curve" smooth="yes" />
+      <point x="-25.6" y="891.904" />
+      <point x="-72.704" y="861.184" />
+      <point x="-72.704" y="806.912" type="curve" smooth="yes" />
+      <point x="-72.704" y="755.712" />
+      <point x="-39.936" y="727.04" />
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.25,0.25,0.25,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="alefqamats-hb" format="2">
+  <advance width="651.264" />
+  <unicode hex="FB2F" />
+  <anchor x="168.96" y="0" name="bottom" />
+  <anchor x="-66.56" y="0" name="bottomleft" />
+  <anchor x="355.328" y="332.8" name="center" />
+  <anchor x="560.128" y="819.2" name="top" />
+  <anchor x="68.608" y="618.496" name="topleft" />
+  <outline>
+    <component base="alef-hb" />
+    <component base="qamats-hb" xOffset="168.96" />
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="holam-hb" format="2">
+  <unicode hex="05B9" />
+  <anchor x="0" y="424.96" name="_topleft" />
+  <outline>
+    <contour>
+      <point x="0" y="503.808" type="curve" smooth="yes" />
+      <point x="32.768" y="503.808" />
+      <point x="59.392" y="530.432" />
+      <point x="59.392" y="563.2" type="curve" smooth="yes" />
+      <point x="59.392" y="595.968" />
+      <point x="32.768" y="622.592" />
+      <point x="0" y="622.592" type="curve" smooth="yes" />
+      <point x="-32.768" y="622.592" />
+      <point x="-59.392" y="595.968" />
+      <point x="-59.392" y="563.2" type="curve" smooth="yes" />
+      <point x="-59.392" y="530.432" />
+      <point x="-32.768" y="503.808" />
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.25,0.25,0.25,1</string>
+    </dict>
+  </lib>
+</glyph>

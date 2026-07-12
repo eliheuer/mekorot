@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lameddagesh-hb" format="2">
+  <advance width="396.288"/>
+  <unicode hex="FB3C"/>
+  <anchor x="128" y="0" name="bottom"/>
+  <anchor x="141.312" y="313.344" name="center"/>
+  <outline>
+    <component base="lamed-hb"/>
+    <component base="dagesh-hb" xOffset="141.312" yOffset="-11.264"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0.5,0,1</string>
+    </dict>
+  </lib>
+</glyph>

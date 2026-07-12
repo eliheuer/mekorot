@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="acutecomb.case" format="2">
+  <anchor x="-81.92" y="727.04" name="_top" />
+  <outline>
+    <contour>
+      <point x="-87.04" y="727.04" type="line" />
+      <point x="-75.776" y="727.04" type="line" />
+      <point x="52.224" y="818.176" type="line" smooth="yes" />
+      <point x="81.92" y="839.68" />
+      <point x="86.016" y="862.208" />
+      <point x="86.016" y="882.688" type="curve" />
+      <point x="2.048" y="882.688" type="line" />
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.25,0.25,0.25,1</string>
+    </dict>
+  </lib>
+</glyph>

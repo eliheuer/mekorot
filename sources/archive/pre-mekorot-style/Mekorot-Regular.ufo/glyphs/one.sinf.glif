@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="one.sinf" format="2">
+  <advance width="275.456" />
+  <outline>
+    <contour>
+      <point x="65.536" y="0" type="line" />
+      <point x="249.856" y="0" type="line" />
+      <point x="249.856" y="15.36" type="line" />
+      <point x="199.68" y="36.864" type="line" />
+      <point x="199.68" y="394.24" type="line" />
+      <point x="160.768" y="394.24" type="line" />
+      <point x="15.36" y="304.128" type="line" />
+      <point x="15.36" y="275.456" type="line" />
+      <point x="121.856" y="330.752" type="line" />
+      <point x="121.856" y="36.864" type="line" />
+      <point x="65.536" y="15.36" type="line" />
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

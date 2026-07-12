@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="wacute" format="2">
+  <advance width="771.072"/>
+  <unicode hex="1E83"/>
+  <anchor x="404.48" y="522.24" name="top"/>
+  <outline>
+    <component base="w"/>
+    <component base="acutecomb" xOffset="491.52"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0.5,0,1</string>
+    </dict>
+  </lib>
+</glyph>

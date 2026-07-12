@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="idotless" format="2">
+  <advance width="354.304" />
+  <unicode hex="0131" />
+  <anchor x="177.152" y="0" name="bottom" />
+  <anchor x="212.992" y="0" name="right" />
+  <anchor x="177.152" y="522.24" name="top" />
+  <outline>
+    <contour>
+      <point x="20.48" y="0" type="line" smooth="yes" />
+      <point x="333.824" y="0" type="line" smooth="yes" />
+      <point x="333.824" y="16.384" type="line" />
+      <point x="275.456" y="49.152" type="line" />
+      <point x="275.456" y="481.28" type="line" />
+      <point x="259.072" y="481.28" type="line" />
+      <point x="23.552" y="424.96" type="line" />
+      <point x="23.552" y="408.576" type="line" />
+      <point x="91.136" y="364.544" type="line" />
+      <point x="91.136" y="49.152" type="line" />
+      <point x="20.48" y="16.384" type="line" />
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

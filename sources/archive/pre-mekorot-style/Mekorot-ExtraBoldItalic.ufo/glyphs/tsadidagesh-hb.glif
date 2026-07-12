@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tsadidagesh-hb" format="2">
+  <advance width="494.592" />
+  <unicode hex="FB46" />
+  <anchor x="118.784" y="0" name="bottom" />
+  <anchor x="177.152" y="344.064" name="center" />
+  <outline>
+    <component base="tsadi-hb" />
+    <component base="dagesh-hb" xOffset="177.152" yOffset="19.456" />
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

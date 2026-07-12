@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="nundagesh-hb" format="2">
+  <advance width="355.328" />
+  <unicode hex="FB40" />
+  <anchor x="92.16" y="0" name="bottom" />
+  <anchor x="158.72" y="346.112" name="center" />
+  <outline>
+    <component base="nun-hb" />
+    <component base="dagesh-hb" xOffset="142.336" yOffset="21.504" />
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

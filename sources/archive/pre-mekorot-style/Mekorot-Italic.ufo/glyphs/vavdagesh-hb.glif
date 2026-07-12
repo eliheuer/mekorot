@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="vavdagesh-hb" format="2">
+  <advance width="315.392" />
+  <unicode hex="FB35" />
+  <anchor x="106.496" y="0" name="bottom" />
+  <anchor x="0" y="0" name="bottomleft" />
+  <anchor x="68.608" y="276.48" name="center" />
+  <anchor x="240.64" y="645.12" name="top" />
+  <anchor x="210.944" y="645.12" name="topleft" />
+  <outline>
+    <component base="vav-hb" />
+    <component base="dagesh-hb" xOffset="52.224" yOffset="-48.128" />
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="memdagesh-hb" format="2">
+  <advance width="633.856"/>
+  <unicode hex="FB3E"/>
+  <anchor x="316.416" y="0" name="bottom"/>
+  <anchor x="376.832" y="302.08" name="center"/>
+  <outline>
+    <component base="mem-hb"/>
+    <component base="dagesh-hb" xOffset="376.832" yOffset="-22.528"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0.5,0,1</string>
+    </dict>
+  </lib>
+</glyph>

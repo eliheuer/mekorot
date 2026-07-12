@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="shinsindot-hb" format="2">
+  <advance width="691.2" />
+  <unicode hex="FB2B" />
+  <anchor x="279.552" y="0" name="bottom" />
+  <anchor x="45.056" y="0" name="bottomleft" />
+  <anchor x="379.904" y="340.992" name="center" />
+  <anchor x="398.336" y="701.44" name="top" />
+  <anchor x="334.848" y="642.048" name="topleft" />
+  <anchor x="737.28" y="657.408" name="topright" />
+  <outline>
+    <component base="shin-hb" />
+    <component base="sindot-hb" xOffset="334.848" yOffset="217.088" />
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

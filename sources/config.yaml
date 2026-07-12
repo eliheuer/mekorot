@@ -1,7 +1,6 @@
 sources:
-  - Mekorot.glyphs
-  - Mekorot-Italic.glyphs
+  - Mekorot.designspace
+  - Mekorot-Italic.designspace
 axisOrder:
   - wght
-  - ital
 familyName: Mekorot

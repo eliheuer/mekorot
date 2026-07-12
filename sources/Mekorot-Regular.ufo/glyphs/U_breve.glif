@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ubreve" format="2">
+  <advance width="828.416"/>
+  <unicode hex="016C"/>
+  <anchor x="411.648" y="0" name="bottom"/>
+  <anchor x="441.344" y="0" name="right"/>
+  <anchor x="424.96" y="727.04" name="top"/>
+  <outline>
+    <component base="U"/>
+    <component base="brevecomb.case" xOffset="424.96"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0.5,0,1</string>
+    </dict>
+  </lib>
+</glyph>

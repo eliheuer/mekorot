@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="parenleft" format="2">
+  <advance width="276.48" />
+  <unicode hex="0028" />
+  <outline>
+    <contour>
+      <point x="229.376" y="-153.6" type="curve" />
+      <point x="256" y="-153.6" type="line" />
+      <point x="256" y="-150.528" type="line" />
+      <point x="173.05088" y="-15.736832" />
+      <point x="124.928" y="114.688" />
+      <point x="124.928" y="302.08" type="curve" smooth="yes" />
+      <point x="124.928" y="489.472" />
+      <point x="173.029376" y="621.934592" />
+      <point x="256" y="754.688" type="curve" />
+      <point x="256" y="757.76" type="line" />
+      <point x="229.376" y="757.76" type="line" />
+      <point x="99.328" y="620.544" />
+      <point x="46.08" y="471.04" />
+      <point x="46.08" y="302.08" type="curve" smooth="yes" />
+      <point x="46.08" y="133.12" />
+      <point x="99.328" y="-16.384" />
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

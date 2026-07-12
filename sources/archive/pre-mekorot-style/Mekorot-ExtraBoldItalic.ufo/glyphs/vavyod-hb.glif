@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="vavyod-hb" format="2">
+  <advance width="789.504" />
+  <unicode hex="05F1" />
+  <anchor x="56.32" y="0" name="bottom" />
+  <anchor x="427.008" y="0" name="bottomleft" />
+  <anchor x="25.6" y="379.904" name="center" />
+  <anchor x="636.928" y="645.12" name="top" />
+  <anchor x="637.952" y="696.32" name="topleft" />
+  <outline>
+    <component base="vav-hb" xOffset="375.808" />
+    <component base="yod-hb" />
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

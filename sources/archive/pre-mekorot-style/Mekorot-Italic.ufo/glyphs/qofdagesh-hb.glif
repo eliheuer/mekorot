@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="qofdagesh-hb" format="2">
+  <advance width="593.92" />
+  <unicode hex="FB47" />
+  <anchor x="328.704" y="0" name="bottom" />
+  <anchor x="345.088" y="296.96" name="center" />
+  <outline>
+    <component base="qof-hb" />
+    <component base="dagesh-hb" xOffset="328.704" yOffset="-27.648" />
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

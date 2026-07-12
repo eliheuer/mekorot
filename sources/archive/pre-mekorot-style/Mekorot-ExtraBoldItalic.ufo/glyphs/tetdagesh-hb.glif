@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tetdagesh-hb" format="2">
+  <advance width="781.312" />
+  <unicode hex="FB38" />
+  <anchor x="372.736" y="0" name="bottom" />
+  <anchor x="506.88" y="354.304" name="center" />
+  <outline>
+    <component base="tet-hb" />
+    <component base="dagesh-hb" xOffset="506.88" yOffset="29.696" />
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="shindagesh-hb" format="2">
+  <advance width="593.92" />
+  <unicode hex="FB49" />
+  <anchor x="340.992" y="0" name="bottom" />
+  <anchor x="45.056" y="0" name="bottomleft" />
+  <anchor x="317.44" y="334.848" name="center" />
+  <anchor x="326.656" y="701.44" name="top" />
+  <anchor x="143.36" y="629.76" name="topleft" />
+  <anchor x="513.024" y="644.096" name="topright" />
+  <outline>
+    <component base="shin-hb" />
+    <component base="dagesh-hb" xOffset="317.44" yOffset="10.24" />
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

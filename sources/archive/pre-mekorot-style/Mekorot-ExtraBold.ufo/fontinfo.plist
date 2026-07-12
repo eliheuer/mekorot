@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ascender</key>
+	<real>777.216</real>
+	<key>capHeight</key>
+	<real>675.84</real>
+	<key>copyright</key>
+	<string>Copyright 2021 The Mekorot Project Authors (https://github.com/googlefonts/mekorot)</string>
+	<key>descender</key>
+	<integer>-455</integer>
+	<key>familyName</key>
+	<string>Mekorot</string>
+	<key>italicAngle</key>
+	<integer>0</integer>
+	<key>openTypeHeadCreated</key>
+	<string>2021/07/16 04:59:07</string>
+	<key>openTypeHheaAscender</key>
+	<real>921.6</real>
+	<key>openTypeHheaDescender</key>
+	<integer>-455</integer>
+	<key>openTypeHheaLineGap</key>
+	<integer>0</integer>
+	<key>openTypeNameDesigner</key>
+	<string>Alan Hoenig</string>
+	<key>openTypeNameDesignerURL</key>
+	<string>https://ctan.org/tex-archive/language/hebrew/makor/</string>
+	<key>openTypeNameLicense</key>
+	<string>This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL</string>
+	<key>openTypeNameLicenseURL</key>
+	<string>https://scripts.sil.org/OFL</string>
+	<key>openTypeNameManufacturer</key>
+	<string>Eli Heuer</string>
+	<key>openTypeNameManufacturerURL</key>
+	<string>https://fonts.google.com/</string>
+	<key>openTypeOS2Panose</key>
+	<array>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+	</array>
+	<key>openTypeOS2Selection</key>
+	<array>
+		<integer>7</integer>
+	</array>
+	<key>openTypeOS2StrikeoutPosition</key>
+	<real>266.24</real>
+	<key>openTypeOS2StrikeoutSize</key>
+	<real>51.2</real>
+	<key>openTypeOS2Type</key>
+	<array/>
+	<key>openTypeOS2TypoAscender</key>
+	<real>921.6</real>
+	<key>openTypeOS2TypoDescender</key>
+	<integer>-455</integer>
+	<key>openTypeOS2TypoLineGap</key>
+	<integer>0</integer>
+	<key>openTypeOS2WinAscent</key>
+	<real>1228.8</real>
+	<key>openTypeOS2WinDescent</key>
+	<integer>455</integer>
+	<key>postscriptBlueValues</key>
+	<array>
+		<real>-10.24</real>
+		<integer>0</integer>
+		<real>460.8</real>
+		<real>471.04</real>
+		<real>675.84</real>
+		<real>686.08</real>
+	</array>
+	<key>postscriptStemSnapH</key>
+	<array>
+		<real>56.32</real>
+		<real>45.056</real>
+	</array>
+	<key>postscriptStemSnapV</key>
+	<array>
+		<real>153.6</real>
+		<real>143.36</real>
+	</array>
+	<key>postscriptUnderlinePosition</key>
+	<real>-122.88</real>
+	<key>postscriptUnderlineThickness</key>
+	<real>51.2</real>
+	<key>styleName</key>
+	<string>ExtraBold</string>
+	<key>unitsPerEm</key>
+	<integer>1024</integer>
+	<key>versionMajor</key>
+	<integer>2</integer>
+	<key>versionMinor</key>
+	<integer>0</integer>
+	<key>xHeight</key>
+	<real>460.8</real>
+</dict>
+</plist>

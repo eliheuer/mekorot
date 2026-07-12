@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <array>
+    <array>
+      <string>public.default</string>
+      <string>glyphs</string>
+    </array>
+    <array>
+      <string>Jan 10, 22, 19:14</string>
+      <string>glyphs.J_an 10, 22, 19_14</string>
+    </array>
+    <array>
+      <string>Jan 10, 22, 21:33</string>
+      <string>glyphs.J_an 10, 22, 21_33</string>
+    </array>
+    <array>
+      <string>Jan 11, 22, 22:08</string>
+      <string>glyphs.J_an 11, 22, 22_08</string>
+    </array>
+    <array>
+      <string>Feb 16, 23 at 12:33</string>
+      <string>glyphs.F_eb 16, 23 at 12_33</string>
+    </array>
+    <array>
+      <string>Dec 21, 21, 20:14</string>
+      <string>glyphs.D_ec 21, 21, 20_14</string>
+    </array>
+    <array>
+      <string>Dec 21, 21, 22:18</string>
+      <string>glyphs.D_ec 21, 21, 22_18</string>
+    </array>
+    <array>
+      <string>Dec 22, 21, 15:44</string>
+      <string>glyphs.D_ec 22, 21, 15_44</string>
+    </array>
+    <array>
+      <string>Dec 22, 21, 18:16</string>
+      <string>glyphs.D_ec 22, 21, 18_16</string>
+    </array>
+    <array>
+      <string>Dec 30, 21, 16:23</string>
+      <string>glyphs.D_ec 30, 21, 16_23</string>
+    </array>
+    <array>
+      <string>Aug 18, 21, 15:36</string>
+      <string>glyphs.A_ug 18, 21, 15_36</string>
+    </array>
+  </array>
+</plist>

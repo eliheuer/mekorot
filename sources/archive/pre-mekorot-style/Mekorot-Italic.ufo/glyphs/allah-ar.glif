@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="allah-ar" format="2">
+  <unicode hex="FDF2" />
+  <advance width="1121" />
+  <outline>
+    <component base="alef-ar" xOffset="939" />
+    <component base="lam_lam_heh-ar.liga" xOffset="20" />
+  </outline>
+</glyph>

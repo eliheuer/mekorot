@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="betdagesh-hb" format="2">
+  <advance width="476.16" />
+  <unicode hex="FB31" />
+  <anchor x="126.976" y="0" name="bottom" />
+  <anchor x="174.08" y="329.728" name="center" />
+  <outline>
+    <component base="bet-hb" />
+    <component base="dagesh-hb" xOffset="157.696" yOffset="5.12" />
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

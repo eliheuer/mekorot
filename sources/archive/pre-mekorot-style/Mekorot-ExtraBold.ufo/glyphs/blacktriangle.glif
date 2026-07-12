@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="blacktriangle" format="2">
+  <advance width="576.512" />
+  <outline>
+    <contour>
+      <point x="516.096" y="283.648" type="line" />
+      <point x="144.384" y="512" type="line" />
+      <point x="144.384" y="55.296" type="line" />
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.25,0.25,0.25,1</string>
+    </dict>
+  </lib>
+</glyph>

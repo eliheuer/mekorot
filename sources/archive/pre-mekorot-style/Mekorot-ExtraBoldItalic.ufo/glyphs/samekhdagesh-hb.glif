@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="samekhdagesh-hb" format="2">
+  <advance width="691.2" />
+  <unicode hex="FB41" />
+  <anchor x="344.064" y="0" name="bottom" />
+  <anchor x="410.624" y="313.344" name="center" />
+  <outline>
+    <component base="samekh-hb" />
+    <component base="dagesh-hb" xOffset="410.624" yOffset="-11.264" />
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

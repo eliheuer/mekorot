@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="allah-ar" format="2">
+  <advance width="1121"/>
+  <unicode hex="FDF2"/>
+  <outline>
+    <component base="alef-ar" xOffset="939"/>
+    <component base="lam_lam_heh-ar.liga" xOffset="20"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0.5,0,1</string>
+    </dict>
+  </lib>
+</glyph>

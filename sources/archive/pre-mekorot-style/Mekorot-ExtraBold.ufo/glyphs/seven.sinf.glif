@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="seven.sinf" format="2">
+  <advance width="296.96" />
+  <outline>
+    <contour>
+      <point x="45.056" y="0" type="curve" />
+      <point x="163.84" y="0" type="line" />
+      <point x="192.512" y="129.024" />
+      <point x="239.616" y="253.952" />
+      <point x="296.96" y="364.544" type="curve" />
+      <point x="296.96" y="394.24" type="line" />
+      <point x="5.12" y="394.24" type="line" />
+      <point x="5.12" y="283.648" type="line" />
+      <point x="246.784" y="283.648" type="line" />
+      <point x="274.432" y="373.76" type="line" />
+      <point x="182.272" y="248.832" />
+      <point x="88.064" y="103.424" />
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

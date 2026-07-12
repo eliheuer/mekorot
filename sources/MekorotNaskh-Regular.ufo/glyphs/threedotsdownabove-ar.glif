@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="threedotsdownabove-ar" format="2">
+  <advance width="615"/>
+  <outline>
+    <component base="dotcenter-ar" xOffset="227" yOffset="419"/>
+    <component base="dotcenter-ar" xOffset="92" yOffset="252"/>
+    <component base="dotcenter-ar" xOffset="360" yOffset="262"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0.5,0,1</string>
+    </dict>
+  </lib>
+</glyph>

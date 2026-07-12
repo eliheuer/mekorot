@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ring" format="2">
+  <advance width="278.528" />
+  <unicode hex="02DA" />
+  <anchor x="139.264" y="522.24" name="_top" />
+  <anchor x="139.264" y="750.592" name="top" />
+  <outline>
+    <component base="ringcomb" xOffset="139.264" />
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.25,0.25,0.25,1</string>
+    </dict>
+  </lib>
+</glyph>

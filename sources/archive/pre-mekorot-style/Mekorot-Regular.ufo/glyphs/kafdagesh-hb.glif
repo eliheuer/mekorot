@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kafdagesh-hb" format="2">
+  <advance width="476.16" />
+  <unicode hex="FB3B" />
+  <anchor x="210.944" y="0" name="bottom" />
+  <anchor x="196.608" y="336.896" name="center" />
+  <outline>
+    <component base="kaf-hb" />
+    <component base="dagesh-hb" xOffset="196.608" yOffset="12.288" />
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

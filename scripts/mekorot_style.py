@@ -117,9 +117,63 @@ def flatten(contour):
     return poly[:-1]  # closed: drop duplicated start
 
 
+RESAMPLE = 2.0       # arc-length step for uniform resampling
+SMOOTH_R = 4         # box-smoothing radius in samples (~8u window)
+PROMINENCE = 10.0    # an extremum must reverse by at least this much
 FILLET = 24.0        # arc-length offset of fillet nodes from a corner
 CORNER_TURN = 0.6    # rad (~34 deg): direction change that counts as a corner
 AXIS_TOL = 0.35      # rad (~20 deg): edge direction close enough to an axis
+
+
+def resample(poly, step=RESAMPLE):
+    """Uniform arc-length resampling of a closed polyline."""
+    out = []
+    n = len(poly)
+    carry = 0.0
+    for i in range(n):
+        a, b = poly[i], poly[(i + 1) % n]
+        seg = math.hypot(b[0] - a[0], b[1] - a[1])
+        if seg < 1e-9:
+            continue
+        t = carry
+        while t < seg:
+            u = t / seg
+            out.append((a[0] + (b[0] - a[0]) * u, a[1] + (b[1] - a[1]) * u))
+            t += step
+        carry = t - seg
+    return out if len(out) >= 8 else poly
+
+
+def smooth(poly, r=SMOOTH_R):
+    """Circular box smoothing — kills trace jitter before node finding."""
+    n = len(poly)
+    if n < 2 * r + 1:
+        return poly
+    out = []
+    for i in range(n):
+        xs = ys = 0.0
+        for k in range(-r, r + 1):
+            p = poly[(i + k) % n]
+            xs += p[0]
+            ys += p[1]
+        out.append((xs / (2 * r + 1), ys / (2 * r + 1)))
+    return out
+
+
+def prominent(poly, i, coord, prom=PROMINENCE):
+    """True if the reversal at sample i travels back >= prom on both sides."""
+    n = len(poly)
+    v = poly[i][coord]
+    for direction in (1, -1):
+        j, best = i, 0.0
+        for _ in range(n):
+            j = (j + direction) % n
+            best = max(best, abs(poly[j][coord] - v))
+            if best >= prom:
+                break
+        if best < prom:
+            return False
+    return True
 
 
 def tangent(poly, i, span=3):
@@ -155,9 +209,9 @@ def find_nodes(poly):
     for i in range(n):
         xp, x, xn = poly[(i - 1) % n][0], poly[i][0], poly[(i + 1) % n][0]
         yp, y, yn = poly[(i - 1) % n][1], poly[i][1], poly[(i + 1) % n][1]
-        if (x - xp) * (xn - x) < 0:
+        if (x - xp) * (xn - x) < 0 and prominent(poly, i, 0):
             nodes.append((i, 'V'))
-        elif (y - yp) * (yn - y) < 0:
+        elif (y - yp) * (yn - y) < 0 and prominent(poly, i, 1):
             nodes.append((i, 'H'))
         else:
             t_in = tangent(poly, (i - off) % n, 2)
@@ -233,6 +287,7 @@ def convert_contour(contour, scale):
     poly = [(x * scale, y * scale) for x, y in flatten(contour)]
     if len(poly) < 8:
         return None
+    poly = smooth(resample(poly))
     nodes = find_nodes(poly)
     if len(nodes) < 2:
         return None
